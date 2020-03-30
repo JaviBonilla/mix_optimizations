@@ -1,0 +1,41 @@
+<div id="footerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h4>About</h4>
+                <div class="hline-w"></div>
+                <p>{{ site.about }}</p>
+            </div>
+            <div class="col-lg-4">
+                <h4>Social Links</h4>
+                <div class="hline-w"></div>
+                <p>
+                    <a href="https://www.psa.es/en" target='_blank' data-toggle="tooltip" title='PSA website' class="btn-social btn-outline">
+                        <i class="fas fa-sun" aria-hidden="true"></i>
+                        <span class="sr-only">Website</span>
+                    </a>
+                    {% for network in site.social %}
+                        <a href="{{ network.url }}" target='_blank' data-toggle="tooltip" title='PSA {{ network.title }}' class="btn-social btn-outline">
+                          <i class="fab fa-{{ network.title }}" aria-hidden="true"></i>
+                          <span class="sr-only">{{network.title}}</span>
+                        </a>
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <h4>Location</h4>
+                <div class="hline-w"></div>
+                <p>
+                    {% for line in site.address.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
+                </p>
+                <p>
+                    Email: <a href='mailto:{% raw %}{{ site.email }}{% endraw %}'>{{site.email}}</a><br/>
+                    Tel: <a href='tel:{% raw %}{{ site.tel }}{% endraw %}'>{{site.tel}}</a><br />
+                    Website: <a href='https://www.psa.es/en' target='_blank'>https://www.psa.es</a>
+                </p>
+            </div>
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/footerwrap -->

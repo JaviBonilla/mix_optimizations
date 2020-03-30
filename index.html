@@ -1,0 +1,73 @@
+---
+layout: index
+title: Home
+permalink: /
+---
+
+<style>
+    .bottom-three {
+       margin-bottom: 1cm;
+    }
+</style>
+  
+
+<div id="service">
+    <div class="container">
+        <p class="bottom-three"></p>
+        <div class="row centered">
+            <div class="col-md-4">
+                <i class="fa fa-chart-area" aria-hidden="true"></i>
+                <span class="sr-only">Chart area</span>
+                <h4>Multiobjective Optimization</h4>
+                <p align='justify'>Optimizations are performed considering hourly historic data from real demand and generation of all the different energy sources than contribute to the global Spanish electric mix.</p>
+                <!--<p><br/><a href="#" class="btn btn-theme">More Info</a></p>-->
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-robot" aria-hidden="true"></i>
+                <span class="sr-only">Artificial Intelligence</span>
+                <h4>Artificial Intelligence</h4>
+                <p align='justify'>Multiobjective genertic algorithms are applied to find the set of optimal solutions for each optimization. Such algorithms take into account the optimization criteria and restrictions to determine feasible solutions.</p>
+                <!--<p><br/><a href="#" class="btn btn-theme">More Info</a></p>-->
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-chart-pie" aria-hidden="true"></i>
+                <span class="sr-only">Detailed results</span>
+                <h4>Detailed results</h4>
+                <p align='justify'>Each optimization targets a particular future year considering different assumptions and taking into account several optimization criteria such as minimize mean energy cost, dumped energy and CO<sub>2</sub> emissions.</p>
+                <!--<p><br/><a href="#" class="btn btn-theme">More Info</a></p>-->
+            </div>
+        </div>
+    </div><!--/container -->
+</div><!--/service -->
+
+
+{% include portfolio.html title="Latest Optimizations" limit=12 %}
+
+{% include studies.html title="Latest Studies" limit=10 %}
+
+<div class="container mtb">
+    <div class="row">
+        <!--<div class="col-lg-10 col-lg-offset-1">
+            <h4>Plataforma Solar de Almería (PSA).</h4>
+            <p>The Plataforma Solar de Almería (PSA), a dependency of CIEMAT, is the largest concentrating solar technology research, development and test center in Europe. PSA activities are integrated in the CIEMAT organization as an R&D division of the Department of Energy.</p>
+            <p><br/><a href="{{ "http://www.psa.es/en" }}" target='_blank' class="btn btn-theme">Website</a></p>
+        </div>-->
+
+        <!--<div class="col-lg-3">
+            <h4>Frequently Asked</h4>
+            <div class="hline"></div>
+            {% for question in site.questions %}
+                <p><a href="{{ question.url | prepend: site.baseurl }}">{{ question.title }}</a></p>
+            {% endfor %}
+        </div>
+
+        <div class="col-lg-3">
+            <h4>Latest Posts</h4>
+            <div class="hline"></div>
+            {% for post in site.posts limit:5 %}
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+            {% endfor %}
+        </div>-->
+
+    </div><!--/row -->
+</div><!--/container -->
