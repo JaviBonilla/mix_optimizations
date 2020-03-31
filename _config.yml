@@ -1,7 +1,7 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SPANISH ELECTRIC MIX OPTIMIZATION
+title: ELECTRIC MIX OPTIMIZATION
 description: "Spanish electric mix optimizations for 2030, 2040 and 2050 applying artificial intelligence techniques"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "/mix_optimizations" #important: start with /
