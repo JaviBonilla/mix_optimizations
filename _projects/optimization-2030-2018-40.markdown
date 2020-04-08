@@ -7,18 +7,18 @@ region: Spain
 target: 2030
 data: 2018
 reduction: 40%
-pv: 17.87
-wind: 31.64
-csp: 13.62
-total_power: 128.48
-renewable_power: 90.30 (70.28%)
-cost: 5.38
+pv: 21.57
+wind: 41.04
+csp: 5.12
+total_power: 133.08
+renewable_power: 94.90 (71.31%)
+cost: 4.94
 demand: 286.50
-generated: 288.01
-exported: -1.08
+generated: 290.39
+exported: -3.02
 imported: 0.00
-dumped: 0.43
-emissions: 38,586 (40.21%)
+dumped: 0.88
+emissions: 38,632 (40.14%)
 results: 2030_(2018)_(40_%25)
 variables: "New power of the following energy sources to be installed:
 <ul>

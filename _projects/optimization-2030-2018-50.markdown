@@ -7,18 +7,18 @@ region: Spain
 target: 2030
 data: 2018
 reduction: 50%
-pv: 6.51
-wind: 47.99
-csp: 13.78
-total_power: 130.33
-renewable_power: 95.45 (73.24%)
-cost: 5.22
+pv: 11.56
+wind: 50.08
+csp: 9.85
+total_power: 133.54
+renewable_power: 98.66 (73.88%)
+cost: 5.00
 demand: 286.50
-generated: 290.59
-exported: -3.23
+generated: 292.18
+exported: -4.45
 imported: 0.01
-dumped: 0.87
-emissions: 32,266 (50.01%
+dumped: 1.24
+emissions: 32,192 (50.12%)
 results: 2030_(2018)_(50_%25)
 variables: "New power of the following energy sources to be installed:
 <ul>
@@ -52,7 +52,7 @@ This document includes assumptions, results and interactive figures about the op
 - New solar thermal power plants have **15-hour** thermal storage capacity with a **90%** of storage efficiency.
 - Pumping turbidity power increased from 3.3 GW (2018) to **6.8 GW** (2030).
 - Pumping turbidity capacity increased from 14 GWh (2018) to **28.8 GWh** (2030) with a **76%** of storage efficiency.
-- Some coal power plants are adapted** to **store dumped electricity** from photovoltaic and wind energy in molten salt tanks with a maximum capacity of **11.3 GWh** with a storage efficiency of **39%** and a nominal power of **2.3 GW**.
+- Some coal power plants are adapted to **store dumped electricity** from photovoltaic and wind energy in molten salt tanks with a maximum capacity of **11.3 GWh** with a storage efficiency of **39%** and a nominal power of **2.3 GW**.
 - **0.5%** annual demand increment (from 2018).
 - **50%** emission reduction with respect to 1990.
 <br>
