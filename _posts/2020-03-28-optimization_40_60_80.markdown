@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spanish electric mix optimization for 2030, 2040 and 2050 with CO<sub>2</sub> emissions reduction: 40%, 60% and 80%"
-date: 2020-04-06 09:00:00
+date: 2020-04-12 09:00:00
 author: Javier Bonilla
 categories: 
 - optimization 
@@ -14,13 +14,13 @@ thumb: thumb01.jpg
 
 New set of optimizations of the Spanish electric mix in 2030, 2040 and 2050 to reach the targets established by the European Union in its [2030 climate & energy framework][2030] and [2050 long-term strategy][2050].
 
-Optimizations are performed considering hourly historic data from 2018 real demand and generation of all the different energy sources than contribute to the global Spanish electric mix.<!--more-->
+Optimizations are performed considering hourly historic data from 2018 real demand and generation of all the different energy sources that contribute to the global Spanish electric mix.<!--more-->
 <br><br>
 #### What is exactly optimized?
 
-In this study, current power plants (2018) are used as much as possible to satisfy the estimated future electric demands. This includes the usage of current combined cycle power plants. However, there are limitation in their usage due to the restrictions established by the European Union of CO<sub>2</sub> emissions. Therefore, the only alternative is to installed additional renewable power plants: photovoltaic, wind and solar thermal power plants.
+In this study, current power plants (2018) are used as much as possible to satisfy the estimated future electric demands. This includes the usage of current combined cycle power plants. However, there are limitation in their usage due to the restrictions established by the European Union of CO<sub>2</sub> emissions. Therefore, the only alternative is to installed additional renewable power plants: photovoltaic (PV), wind and solar thermal (CSP) power plants.
 
-The new power of photovoltaic, wind and solar thermal power to be installed is therefore to satisfy the estimated electric demand in 2030, 2040 and 2050.
+The new installed power of PV, wind and CSP plants to be installed is therefore the needed to satisfy the estimated electric demands in 2030, 2040 and 2050.
 <br><br>
 #### Which are the optimizations goals?
 
@@ -28,7 +28,7 @@ The goals are to minimize the dumped electricity and the average electricity gen
 <br><br>
 #### Are there any restrictions?
 
-First, the electric demand must be at least always matched at each hour of the year. Combined cycle power plants are used as much as possible but without exceeding the maximum allowed CO<sub>2</sub> emissions for 2030, 2040 and 2050.
+First, the electric demand must be, at least, always matched at each hour of the year. Combined cycle power plants are used as much as possible but without exceeding the maximum allowed CO<sub>2</sub> emissions for 2030, 2040 and 2050.
 <br><br>
 #### Main results
 
@@ -41,7 +41,7 @@ The following tables show the installed PV, wind and CSP power together with the
 | 2050 | 37.53 | 89.00 | 21.03 | 206.72 | 177.89 (86.05%) | 4.84 |
 
 
-The following table compare the demand, the generated, exported, imported and dumped electricity together with the CO<sub>2</sub> emissions.
+The following table compares demand, generated, exported, imported and dumped electricity together with the CO<sub>2</sub> emissions.
 
 |Year | Demand (TWh) | Generated elec. (TWh) | Exported elec. (TWh) | Imported elec. (TWh) | Dumped elec. (TWh) | CO<sub>2</sub> emissions (kton) & percentage reduction <sup>(1)</sup> |
 |:----:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
