@@ -3,6 +3,7 @@ layout: project
 title:  "Optimization for 2040 based on 2018 with 60% emission reduction"
 date:   2020-03-02 09:00:00
 author: Julián Blanco, Javier Bonilla, Eduardo Zarza and Diego Alarcón
+
 region: Spain
 target: 2040
 data: 2018
@@ -18,8 +19,10 @@ generated: 315.28
 exported: -7.94
 imported: 0.13
 dumped: 6.32
-emissions: 25,306 (60.79%)
+emissions: 25,305.92 (60.79 %)
+
 results: 2040_(2018)_(60_%25)
+remarks: <ul><li>Some fossil-fuel thermal power plants adapted to <b>store dumped electricity</b>.</li></ul>
 variables: "New power of the following energy sources to be installed:
 <ul>
 <li>Photovoltaic power (PV).</li>
@@ -50,8 +53,8 @@ This document includes assumptions, results and interactive figures about the op
 - Cogeneration power reduced from 5.74 GW (2018) to **2.87 GW** (2040), a 50% reduction.
 - Fuel & gas power reduced form 2.49 GW (2018) to **1.25 GW** (2040), a 50% reduction.
 - New solar thermal power plants have **15-hour** thermal storage capacity with a **90%** of storage efficiency.
-- Pumping turbidity power increased from 3.3 GW (2018) to **8 GW** (2040).
-- Pumping turbidity capacity increased from 14 GWh (2018) to **33.9 GWh** (2040) with a **76%** of storage efficiency.
+- Pumped hydropower power increased from 3.3 GW (2018) to **8 GW** (2040).
+- Pumped hydropower capacity increased from 14 GWh (2018) to **33.9 GWh** (2040) with a **76%** of storage efficiency.
 - Some coal power plants are adapted to **store dumped electricity** from photovoltaic and wind energy in molten salt tanks with a maximum capacity of **11.3 GWh** with a storage efficiency of **39%** and a nominal power of **2.3 GW**.
 - **0.5%** annual demand increment from 2018 to 2030 and **1.5%** from 2030 to 2040.
 - **60%** emission reduction with respect to 1990.

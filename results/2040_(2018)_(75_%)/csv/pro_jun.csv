@@ -1,4 +1,4 @@
-Date time,Wind (MW),PV (MW),CSP (new) (MW),Other renewables (MW),Hydraulic (MW),Pumping turbidity (MW),Thermal (MW),Cogeneration (MW),Combined cycle (MW),Fuel & Gas (MW),Nuclear (MW),No renewable residues (MW),Renewable residues (MW),Import (MW),Export (MW),Demand (MW)
+Date time,Wind (MW),PV (MW),CSP (new) (MW),Other renewables (MW),Hydraulic (MW),Pumped hydropower (MW),Thermal (MW),Cogeneration (MW),Combined cycle (MW),Fuel & Gas (MW),Nuclear (MW),No renewable residues (MW),Renewable residues (MW),Import (MW),Export (MW),Demand (MW)
 01-06-2040 00:00:00,3720.1317428720754,0.9261327466579063,19654.303114222424,388.974,4188.731,0.0,0.0,815.466,0.0,0.0,0.0,197.6995,18.9145,0,0.0,29949.667249027847
 01-06-2040 01:00:00,3189.268676280926,4.84214286441614,18653.340858846746,393.94699999999995,3983.886,0.0,0.0,811.057,0.0,0.0,0.0,201.173,18.999000000000002,0,0.0,28112.888678540538
 01-06-2040 02:00:00,3028.9092582499966,0.7219459993632499,17733.06437658716,396.006,3886.4640000000004,0.0,0.0,817.0635000000001,0.0,0.0,0.0,204.1975,18.9605,0,0.0,26827.574816442077

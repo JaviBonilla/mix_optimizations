@@ -36,18 +36,18 @@ The following tables show the installed PV, wind and CSP power together with the
 
 | Year | Installed PV power (GW) | Installed wind power (GW) | Installed CSP power (GW) | Total installed power (GW) | Renewable power (GW) | Mean electricity cost (c€/kWh) |
 |:----:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| 2030 | 11.56 |  50.08 |  9.85 | 133.54 |  98.66 (73.88%) | 5.00 |
-| 2040 | 32.82 |  61.32 | 27.07 | 178.37 | 149.54 (83.84%) | 5.23 |
-| 2050 | 35.97 | 119.93 | 88.42 | 274.49 | 274.49 (100%)   | 7.65 |
+| 2030 | 11.56 | 50.08 |  9.85 | 133.54 | 98.66 (73.88%) | 5.00 |
+| 2040 | 32.82 | 61.32 |  27.07 | 178.37 | 149.54 (83.84%) | 5.23 |
+| 2050 | 35.97 | 119.93 |  88.42 | 274.49 | 274.49 (100.00%) | 7.65 |
 
 
 The following table compares demand, generated, exported, imported and dumped electricity together with the CO<sub>2</sub> emissions.
 
 |Year | Demand (TWh) | Generated elec. (TWh) | Exported elec. (TWh) | Imported elec. (TWh) | Dumped elec. (TWh) | CO<sub>2</sub> emissions (kton) & percentage reduction <sup>(1)</sup> |
 |:----:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| 2030 | 286.50 | 292.18 |  -4.45 | 0.01 |   1.24 | 32,192 (50.12%) |
-| 2040 | 301.15 | 328.91 | -11.18 | 0.20 |  16.77 | 16,134 (75.00%) |
-| 2050 | 316.55 | 569.97 | -44.03 | 0.00 | 209.38 | 0 (100%) |
+| 2030 | 286.50 | 292.18 | -4.45 | 0.01 | 1.24 | 32,192.34 (50.12%) |
+| 2040 | 301.15 | 328.91 | -11.18 | 0.20 | 16.77 | 16,133.69 (75.00%) |
+| 2050 | 316.55 | 569.97 | -44.03 | 0.00 | 209.38 | 0.00 (100.00%) |
 
 
 <sup>(1)</sup> Percentage reduction with respect to emissions in 1990 (<a href='../../../../../emissions/'>64,538 kton CO<sub>2</sub></a>).
