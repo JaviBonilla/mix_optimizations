@@ -1,2 +1,2 @@
-PV (%),Wind (%),CSP (%),Other renewables (%),Hydraulic (%),Pumped hydropower (%),Thermal (%),Cogeneration (%),Combined cycle (%),Fuel & Gas (%),Nuclear (%),No renewable residues (%),Renewable residues (%)
-9.104021468150496,21.38083899436216,19.633193313640568,1.2850733355853787,11.993405123198645,0.0,0.0,5.799798872985203,20.1960823388001,1.53541466547131,7.916775601912246,0.8446364715520197,0.3107598143418759
+PV (%),Wind (%),CSP (%),Other renewables (%),Hydraulic (%),Pumped hydropower (%),Thermal (%),Batteries (%),Cogeneration (%),Combined cycle (%),Fuel & Gas (%),Nuclear (%),No renewable residues (%),Renewable residues (%)
+9.104021468150496,21.38083899436216,19.633193313640568,1.2850733355853787,11.993405123198645,0.0,0.0,0.0,5.799798872985203,20.1960823388001,1.53541466547131,7.916775601912246,0.8446364715520197,0.3107598143418759

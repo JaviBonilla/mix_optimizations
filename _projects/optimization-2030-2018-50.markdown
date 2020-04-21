@@ -22,7 +22,7 @@ dumped: 1.24
 emissions: 32,192.34 (50.12 %)
 
 results: 2030_(2018)_(50_%25)
-remarks: <ul><li>Some fossil-fuel thermal power plants adapted to <b>store dumped electricity</b>.</li></ul>
+remarks: <ul><li>Thermal power plants adapted to <b>store dumped electricity</b>.</li></ul>
 variables: "New power of the following energy sources to be installed:
 <ul>
 <li>Photovoltaic power (PV).</li>
