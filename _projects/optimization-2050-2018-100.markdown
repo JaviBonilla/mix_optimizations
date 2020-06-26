@@ -54,7 +54,7 @@ This document includes assumptions, results and interactive figures about the op
 - Shut down of **fuel & gas** power plants.
 - Shut down of **residues** power plants.
 - Shut down of **combined cycle** power plants.
-- New solar thermal power plants have **15-hour** thermal storage capacity with a **90%** of storage efficiency.
+- New solar thermal power plants have **12-hour** thermal storage capacity with a **90%** of storage efficiency.
 - Pumped hydropower increased from 3.3 GW (2018) to **10 GW** (2050).
 - Pumped hydropower capacity increased from 14 GWh (2018) to **42.4 GWh** (2040) with a **76%** of storage efficiency.
 - Electric batteries with **10 GW** of power and **40 GW** of capacity.

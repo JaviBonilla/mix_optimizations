@@ -52,7 +52,7 @@ This document includes assumptions, results and interactive figures about the op
 - Nuclear power reduced from 7.1 GW (2018) to **3.2 GW** (2030).
 - Cogeneration power reduced from 5.74 GW (2018) to **3.44 GW** (2040), a 40% reduction.
 - Fuel & gas power reduced form 2.49 GW (2018) to **1.49 GW** (2040), a 40% reduction.
-- New solar thermal power plants have **15-hour** thermal storage capacity with a **90%** of storage efficiency.
+- New solar thermal power plants have **12-hour** thermal storage capacity with a **90%** of storage efficiency.
 - Pumped hydropower increased from 3.3 GW (2018) to **6.8 GW** (2030).
 - Pumped hydropower capacity increased from 14 GWh (2018) to **28.8 GWh** (2030) with a **76%** of storage efficiency.
 - Electric batteries with **2.5 GW** of power and **10 GW** of capacity.
