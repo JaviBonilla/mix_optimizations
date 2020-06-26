@@ -8,20 +8,20 @@ region: Spain
 target: 2050
 data: 2018
 reduction: 80%
-pv: 37.53
-wind: 89.00
-csp: 21.03
-total_power: 206.72
-renewable_power: 177.89 (86.05%)
-cost: 4.84
+pv: 57.07
+wind: 80.37
+csp: 17.02
+total_power: 221.36
+renewable_power: 192.53 (86.98%)
+cost: 4.41
 demand: 316.55
-generated: 370.96
-exported: -21.29
-imported: 0.18
-dumped: 33.29
-emissions: 12,900.87 (80.01 %)
+generated: 373.17
+exported: -27.40
+imported: 0.19
+dumped: 29.42
+emissions: 12,898.26 (80.01 %)
 
-results: 2050_(2018)_(80_%25)
+results: 2050_(2018)_(80_%25)_batteries
 remarks: <ul><li>Thermal power plants adapted to <b>store dumped electricity</b>.</li></ul>
 variables: "New power of the following energy sources to be installed:
 <ul>
@@ -50,12 +50,12 @@ This document includes assumptions, results and interactive figures about the op
 #### Main assumptions for 2050 electric mix
 - Shut down of **coal** power plants.
 - Shut down of **nuclear** power plants.
-- Cogeneration power reduced from 5.74 GW (2018) to **1.44 GW** (2040), a 75% reduction.
-- Fuel & gas power reduced form 2.49 GW (2018) to **0.62 GW** (2040), a 75% reduction.
+- Cogeneration power reduced from 5.74 GW (2018) to **1.44 GW** (2050).
+- Fuel & gas power reduced form 2.49 GW (2018) to **0.62 GW** (2050), a 75% reduction.
 - New solar thermal power plants have **15-hour** thermal storage capacity with a **90%** of storage efficiency.
 - Pumped hydropower increased from 3.3 GW (2018) to **10 GW** (2050).
 - Pumped hydropower capacity increased from 14 GWh (2018) to **42.4 GWh** (2040) with a **76%** of storage efficiency.
-- Some coal power plants are adapted to **store dumped electricity** from photovoltaic and wind energy in molten salt tanks with a maximum capacity of **11.3 GWh** with a storage efficiency of **39%** and a nominal power of **2.3 GW**.
+- Electric batteries with **10 GW** of power and **40 GW** of capacity.
 - **0.5%** annual demand increment from 2018 to 2030 and **1.5%** from 2030 to 2050.
 - **80%** emission reduction with respect to 1990.
 <br>

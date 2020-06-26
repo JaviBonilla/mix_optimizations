@@ -21,7 +21,7 @@ imported: 0.20
 dumped: 16.77
 emissions: 16,133.69 (75.00 %)
 
-results: 2040_(2018)_(75_%25)
+results: 2040_(2018)_(75_%25)_batteries
 remarks: <ul><li>Thermal power plants adapted to <b>store dumped electricity</b>.</li></ul>
 variables: "New power of the following energy sources to be installed:
 <ul>
@@ -55,7 +55,7 @@ This document includes assumptions, results and interactive figures about the op
 - New solar thermal power plants have **15-hour** thermal storage capacity with a **90%** of storage efficiency.
 - Pumped hydropower increased from 3.3 GW (2018) to **8 GW** (2040).
 - Pumped hydropower capacity increased from 14 GWh (2018) to **33.9 GWh** (2040) with a **76%** of storage efficiency.
-- Some coal power plants are adapted to **store dumped electricity** from photovoltaic and wind energy in molten salt tanks with a maximum capacity of **11.3 GWh** with a storage efficiency of **39%** and a nominal power of **2.3 GW**.
+- Electric batteries with **5 GW** of power and **20 GW** of capacity.
 - **0.5%** annual demand increment from 2018 to 2030 and **1.5%** from 2030 to 2040.
 - **75%** emission reduction with respect to 1990.
 <br>
