@@ -8,18 +8,18 @@ region: Spain
 target: 2030
 data: 2018
 reduction: 50%
-pv: 11.56
-wind: 50.08
-csp: 9.85
-total_power: 133.54
-renewable_power: 98.66 (73.88%)
-cost: 5.00
+pv: 16.38
+wind: 51.15
+csp: 6.72
+total_power: 136.54
+renewable_power: 101.66 (74.45%)
+cost: 5.25
 demand: 286.50
-generated: 292.18
-exported: -4.45
+generated: 294.22
+exported: -7.09
 imported: 0.01
-dumped: 1.24
-emissions: 32,192.34 (50.12 %)
+dumped: 0.64
+emissions: 32,246.76 (50.03 %)
 
 results: 2030_(2018)_(50_%25)_batteries
 remarks: <ul><li>Thermal power plants adapted to <b>store dumped electricity</b>.</li></ul>
