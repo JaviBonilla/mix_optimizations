@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spanish electric mix optimization for 2030, 2040 and 2050 with CO<sub>2</sub> emissions reduction: 50%, 75% and 100%"
-date: 2020-06-29 08:00:00
+date: 2020-07-05 08:00:00
 author: Javier Bonilla
 categories: 
 - optimization 
