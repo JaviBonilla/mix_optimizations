@@ -8,17 +8,17 @@ region: Spain
 target: 2050
 data: 2018
 reduction: 100%
-pv: 85.20
-wind: 116.91
-csp: 72.13
-total_power: 312.15
-renewable_power: 312.15 (100.00%)
-cost: 6.06
+pv: 21.16
+wind: 120.27
+csp: 111.57
+total_power: 290.91
+renewable_power: 290.91 (100.00%)
+cost: 4.10
 demand: 316.55
-generated: 604.05
-exported: -66.50
+generated: 587.75
+exported: -66.10
 imported: 0.00
-dumped: 221.01
+dumped: 202.02
 emissions: 0.00 (100.00 %)
 
 results: 2050_(2018)_(100_%25)_batteries
