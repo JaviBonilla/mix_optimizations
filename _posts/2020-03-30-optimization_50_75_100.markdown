@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spanish electric mix optimization for 2030, 2040 and 2050 with CO<sub>2</sub> emissions reduction: 50%, 75% and 100%"
-date: 2020-07-05 08:00:00
+date: 2020-07-13 08:00:00
 author: Javier Bonilla
 categories: 
 - optimization 
@@ -36,18 +36,18 @@ The following tables show the installed PV, wind and CSP power together with the
 
 | Year | Installed PV power (GW) | Installed wind power (GW) | Installed CSP power (GW) | Total installed power (GW) | Renewable power (GW) | Mean electricity cost (c€/kWh) |
 |:----:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| 2030 | 10.45 | 44.17 |  14.16 | 131.07 | 96.19 (73.39%) | 5.76 |
-| 2040 | 13.05 | 97.55 |  17.05 | 187.55 | 158.72 (84.63%) | 4.89 |
-| 2050 | 21.16 | 120.27 |  111.57 | 290.91 | 290.91 (100.00%) | 4.10 |
+| 2030 | 17.66 | 46.67 |  8.68 | 135.30 | 100.42 (74.22%) | 5.39 |
+| 2040 | 30.52 | 75.04 |  19.05 | 184.51 | 155.68 (84.37%) | 4.95 |
+| 2050 | 34.67 | 127.67 |  98.90 | 299.15 | 299.15 (100.00%) | 6.61 |
 
 
 The following table compares demand, generated, exported, imported and dumped electricity together with the CO<sub>2</sub> emissions.
 
 |Year | Demand (TWh) | Generated elec. (TWh) | Exported elec. (TWh) | Imported elec. (TWh) | Dumped elec. (TWh) | CO<sub>2</sub> emissions (kton) & percentage reduction <sup>(1)</sup> |
 |:----:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| 2030 | 286.50 | 290.41 | -3.49 | 0.01 | 0.38 | 32,268.78 (50.00%) |
-| 2040 | 301.15 | 350.13 | -30.23 | 0.07 | 18.65 | 16,132.67 (75.00%) |
-| 2050 | 316.55 | 587.75 | -66.10 | 0.00 | 202.02 | 0.00 (100.00%) |
+| 2030 | 286.50 | 292.44 | -5.04 | 0.01 | 0.54 | 32,235.92 (50.05%) |
+| 2040 | 301.15 | 337.28 | -19.65 | 0.13 | 12.57 | 16,130.89 (75.01%) |
+| 2050 | 316.55 | 624.50 | -55.04 | 0.00 | 181.42 | 0.00 (100.00%) |
 
 
 <sup>(1)</sup> Percentage reduction with respect to emissions in 1990 (<a href='../../../../../emissions/'>64,538 kton CO<sub>2</sub></a>).
