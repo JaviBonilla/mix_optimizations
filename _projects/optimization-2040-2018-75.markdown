@@ -1,25 +1,25 @@
 ---
 layout: project
 title:  "Optimization for 2040 based on 2018 with 60% emission reduction"
-date:   2020-03-05 09:00:00
+date:   2020-09-11 09:00:00
 author: Julián Blanco, Javier Bonilla, Eduardo Zarza and Diego Alarcón
 
 region: Spain
 target: 2040
 data: 2018
 reduction: 75%
-pv: 30.52
-wind: 75.04
-csp: 19.05
-total_power: 184.51
-renewable_power: 155.68 (84.37%)
-cost: 4.95
+pv: 25.92
+wind: 82.58
+csp: 17.28
+total_power: 185.68
+renewable_power: 156.85 (84.47%)
+cost: 4.87
 demand: 301.15
-generated: 337.28
-exported: -19.65
-imported: 0.13
-dumped: 12.57
-emissions: 16,130.89 (75.01 %)
+generated: 339.89
+exported: -24.78
+imported: 0.10
+dumped: 14.06
+emissions: 16,099.78 (75.05 %)
 
 results: 2040_(2018)_(75_%25)_batteries
 remarks: <ul><li>Thermal power plants adapted to <b>store dumped electricity</b>.</li></ul>

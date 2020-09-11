@@ -1,24 +1,24 @@
 ---
 layout: project
 title:  "Optimization for 2050 based on 2018 with 100% emission reduction"
-date:   2020-03-06 09:00:00
+date:   2020-09-11 09:00:00
 author: Julián Blanco, Javier Bonilla, Eduardo Zarza and Diego Alarcón
 
 region: Spain
 target: 2050
 data: 2018
 reduction: 100%
-pv: 34.67
-wind: 127.67
-csp: 98.90
-total_power: 299.15
-renewable_power: 299.15 (100.00%)
-cost: 6.61
+pv: 67.37
+wind: 124.29
+csp: 78.01
+total_power: 307.58
+renewable_power: 307.58 (100.00%)
+cost: 6.29
 demand: 316.55
-generated: 624.50
-exported: -55.04
+generated: 608.32
+exported: -69.39
 imported: 0.00
-dumped: 181.42
+dumped: 222.38
 emissions: 0.00 (100.00 %)
 
 results: 2050_(2018)_(100_%25)_batteries
