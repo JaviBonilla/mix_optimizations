@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Optimization for 2040 based on 2018 with 60% emission reduction"
-date:   2020-09-11 09:00:00
+date:   2020-09-10 09:00:00
 author: Julián Blanco, Javier Bonilla, Eduardo Zarza and Diego Alarcón
 
 region: Spain
