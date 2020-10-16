@@ -1,6 +1,6 @@
 {
-    "numCPUs": 20,
-    "executionTime": "0:19:56.886352",
+    "numCPUs": 12,
+    "executionTime": "0:24:56.078037",
     "population": "150",
     "generations": "150",
     "variables": [

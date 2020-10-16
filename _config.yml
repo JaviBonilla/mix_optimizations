@@ -4,8 +4,16 @@
 title: ELECTRIC MIX OPTIMIZATION
 description: "Spanish electric mix optimizations for 2030, 2040 and 2050 applying artificial intelligence techniques"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
+# ------ #
+# GitHub #
+# ------ #
 baseurl: "/mix_optimizations" #important: start with /
 url: "javibonilla.github.io"
+# --- #
+# PSA #
+# --- #
+# baseurl: ""
+# url: "mixspain.psa.es"
 
 # Build settings
 markdown: kramdown
@@ -62,7 +70,7 @@ address:
     - Almería, Spain.
 email: info@psa.es
 tel: +34 950 387 800
-version: "0.6.4"
+version: "0.6.5"
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
