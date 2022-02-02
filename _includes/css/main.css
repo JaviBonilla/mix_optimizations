@@ -144,7 +144,8 @@ ol {
     padding-left: 26px;
 }
 
-a { 
+a,
+a:visited { 
     color:{{ site.colors.link }};
     padding: 0;
 	margin: 0;
@@ -696,3 +697,108 @@ a.anchor{
     top: -80px; 
     visibility: hidden;
 }
+
+#myCookieConsentDesktop {
+    z-index: 999;
+    min-height: 20px;
+    font-family: OpenSans, arial, "sans-serif";
+    padding: 10px 20px;
+    background: rgba(0,0,0,0.9);
+    overflow: hidden;
+    position: fixed;
+    color: #FFF;
+    bottom: 0px;
+    right: 10px;
+    display: none;
+    left: 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+#myCookieConsentDesktop div {
+    padding: 5px 0 0;
+}
+#myCookieConsentDesktop a {
+    color: #50c680;
+    display: inline-block;
+    padding: 0 10px;
+}
+#myCookieConsentDesktop a:hover {
+	color: #67ffa4;
+}
+#myCookieConsentDesktop a#cookieButtonDesktop {
+    display: inline-block;
+    color: #000000;
+    font-size: 1.1em;
+	background: #50c680;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 2px 20px;
+    float: right;
+    border-radius: 20px;
+}
+#myCookieConsentDesktop a#cookieButtonDesktop:hover {
+    background: #67ffa4;
+	color: #000;
+}
+
+#myCookieConsentMobile {
+    z-index: 999;
+    min-height: 20px;
+    font-family: OpenSans, arial, "sans-serif";
+    padding: 10px 20px;
+    background: rgba(0,0,0,0.9);
+    overflow: hidden;
+    position: fixed;
+    color: #FFF;
+    bottom: 0px;
+    right: 10px;
+    display: none;
+    left: 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+#myCookieConsentMobile div {
+    padding: 5px 0 0;
+}
+#myCookieConsentMobile a {
+    color: #50c680;
+    display: inline-block;
+    padding: 0 10px;
+}
+#myCookieConsentMobile a:hover {
+	color: #67ffa4;
+}
+#myCookieConsentMobile a#cookieButtonMobile {
+    display: inline-block;
+    color: #000000;
+    font-size: 1.1em;
+	background: #50c680;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 2px 20px;
+    border-radius: 20px;
+}
+#myCookieConsentMobile a#cookieButtonMobile:hover {
+    background: #67ffa4;
+	color: #000;
+}
+
+@media only screen and (max-device-width: 480px) {
+	.show-mobile {
+	  display: block;
+	}
+	.hide-mobile {
+	  display: none !important;
+	}
+  }
+
+@media only screen and (min-device-width: 481px) {
+	.show-mobile {
+	  display: none !important;
+	}
+	.hide-mobile {
+	  display: block;
+	}
+  }

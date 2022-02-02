@@ -8,18 +8,18 @@ region: Spain
 target: 2050
 data: 2018
 reduction: 80%
-pv: 30.36
-wind: 89.44
-csp: 24.42
-total_power: 211.12
-renewable_power: 182.29 (86.34%)
-cost: 4.74
+pv: 35.21
+wind: 95.33
+csp: 18.88
+total_power: 216.32
+renewable_power: 187.49 (86.67%)
+cost: 4.54
 demand: 316.55
-generated: 370.95
-exported: -29.79
-imported: 0.18
-dumped: 24.79
-emissions: 12,904.89 (80.00 %)
+generated: 376.78
+exported: -32.73
+imported: 0.15
+dumped: 27.65
+emissions: 12,899.31 (80.01 %)
 
 results: 2050_(2018)_(80_%25)_batteries
 remarks: <ul><li>Thermal power plants adapted to <b>store dumped electricity</b>.</li></ul>
@@ -50,8 +50,8 @@ This document includes assumptions, results and interactive figures about the op
 #### Main assumptions for 2050 electric mix
 - Shut down of **coal** power plants.
 - Shut down of **nuclear** power plants.
-- Cogeneration power reduced from 5.74 GW (2018) to **1.44 GW** (2050).
-- Fuel & gas power reduced form 2.49 GW (2018) to **0.62 GW** (2050), a 75% reduction.
+- Cogeneration power reduced from 5.74 GW (2018) to **1.44 GW** (2050), a **75%** reduction.
+- Fuel & gas power reduced form 2.49 GW (2018) to **0.62 GW** (2050), a **75%** reduction.
 - New solar thermal power plants have **12-hour** thermal storage capacity with a **90%** of storage efficiency.
 - Pumped hydropower increased from 3.3 GW (2018) to **10 GW** (2050).
 - Pumped hydropower capacity increased from 14 GWh (2018) to **42.4 GWh** (2040) with a **76%** of storage efficiency.

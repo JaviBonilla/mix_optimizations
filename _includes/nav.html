@@ -13,6 +13,7 @@
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
+        <li {% if page.title == "Historical cost evolution of key renewable technologies" %}class="active"{% endif %}><a href="{{"/renewable_cost_evolution/" | prepend: site.baseurl }}">COST OF KEY RENEWABLES</a></li>
         <li {% if page.title == "Annual CO<sub>2</sub> emissions" or page.title == "CO<sub>2</sub> emissions in 2018"  %}class="active"{% else %}class="link"{% endif %}>
           <a href="#" data-toggle="dropdown">
             CO<sub>2</sub> EMISSIONS <b class="caret"></b>
@@ -25,9 +26,69 @@
         <!--<li {% if page.title == "CO2 emissions" %}class="active"{% endif %}><a href="{{"/emissions/" | prepend: site.baseurl }}">CO<sub>2</sub> EMISSIONS</a></li>-->
         <li {% if page.title == "Optimization studies" %}class="active"{% endif %}><a href="{{"/studies/" | prepend: site.baseurl }}">STUDIES</a></li>
         <li {% if page.title == "Optimizations" %}class="active"{% endif %}><a href="{{"/optimizations/" | prepend: site.baseurl }}">OPTIMIZATIONS</a></li>
-        <!--<li {% if page.title == "About" %}class="active"{% endif %}><a href="{{"/about/" | prepend: site.baseurl }}">ABOUT</a></li>-->
+        <li {% if page.title == "Evaluations" %}class="active"{% endif %}><a href="{{"/evaluations/" | prepend: site.baseurl }}">EVALUATIONS</a></li>
+        <li {% if page.title == "Abou" %}class="active"{% endif %}><a href="{{"/about/" | prepend: site.baseurl }}">ABOUT</a></li>
         <!--<li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">CONTACT</a></li>-->
       </ul>
     </div><!--/.nav-collapse -->
   </div>
 </div>
+
+<div id="myCookieConsentMobile" class="show-mobile">
+  <div>Check the usage license for data and figures of this website at the<a href="/about" style="margin-left:-5px;">About page</a></div>
+  <div style="margin-top: 5px;"><a id="cookieButtonMobile">Understood</a></div>
+</div>
+
+<div id="myCookieConsentDesktop" class="hide-mobile">
+  <a id="cookieButtonDesktop">Understood</a>
+  <div>Check the usage license for data and figures of this website at the<a href="/about" style="margin-left:-5px;">About page</a></div>
+</div>
+
+<script>
+// Cookie Compliancy BEGIN
+function GetCookie(name) {
+  var arg=name+"=";
+  var alen=arg.length;
+  var clen=document.cookie.length;
+  var i=0;
+  while (i<clen) {
+	var j=i+alen;
+	if (document.cookie.substring(i,j)==arg)
+	  return "here";
+	i=document.cookie.indexOf(" ",i)+1;
+	if (i==0) break;
+  }
+  return null;
+}
+
+function testFirstCookie(){
+  var visit=GetCookie("cookieCompliancyAccepted");
+	if (visit==null){
+	   $("#myCookieConsentMobile").fadeIn(400);	  // Show warning
+     $("#myCookieConsentDesktop").fadeIn(400);	// Show warning
+	} else {
+	  // Already accepted
+	}		
+}
+
+jQuery(document).ready(function($){
+
+    $("#cookieButtonMobile").click(function(){
+		  console.log('Understood');
+		  var expire=new Date();
+		  expire=new Date(expire.getTime()+7776000000);
+		  document.cookie="cookieCompliancyAccepted=here; expires="+expire+";path=/";
+      $("#myCookieConsentMobile").hide(400);
+    });
+
+    $("#cookieButtonDesktop").click(function(){
+		  console.log('Understood');
+		  var expire=new Date();
+		  expire=new Date(expire.getTime()+7776000000);
+		  document.cookie="cookieCompliancyAccepted=here; expires="+expire+";path=/";
+      $("#myCookieConsentDesktop").hide(400);
+    });    
+
+	testFirstCookie();
+});
+</script>

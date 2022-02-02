@@ -1,0 +1,33 @@
+---
+layout: project
+title:  "Evaluation for 2050 based on 2015 data"
+date:   2020-01-16 10:00:00
+author: Julián Blanco, Javier Bonilla, Eduardo Zarza and Diego Alarcón
+
+region: Spain
+target: 2050
+data: 2015
+reduction: 90%
+
+pv: 64.12
+wind: 97.88
+csp: 24.06
+total_power: 251.72
+renewable_power: 224.13 (89.04%)
+cost: 4.69
+demand: 313.36
+generated: 431.68
+exported: -43.91
+imported: 0.22
+dumped: 74.62
+emissions: 7,110.80 (88.98 %)
+
+results: 2050_(2015)_(90_%25)_batteries
+variables: "Only evaluation"
+goals: "Only evaluation"
+restrictions: "Only evaluation"
+---
+#### Overview
+This document includes results and interactive figures about the Spanish energy mix in **2050** considering **2015** data.
+<br>
+<br>

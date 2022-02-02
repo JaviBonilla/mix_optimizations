@@ -1,0 +1,68 @@
+---
+layout: post
+title: "Spanish electricity mix optimization for 2030, 2040 and 2050 with CO<sub>2</sub> emissions reduction: 60%, 75% and 90%"
+date: 2020-12-04 09:00:00
+author: Javier Bonilla
+categories: 
+- optimization 
+- Year 2030
+- Year 2040
+- Year 2050
+img: post01.jpg
+thumb: thumb01.jpg
+---
+
+New set of optimizations of the Spanish electricity mix in 2030, 2040 and 2050 to reach the targets established by the European Union in its [2030 climate & energy framework][2030] and [2050 long-term strategy][2050].
+
+Optimizations are performed considering hourly historic data from 2018 real demand and generation of all the different energy sources that contribute to the global Spanish electricity mix.<!--more-->
+<br><br>
+#### What is exactly optimized?
+
+In this study, current power plants (2018) are used as much as possible to satisfy the estimated future electric demands. This includes the usage of current combined cycle power plants. However, there are limitation in their usage due to the restrictions established by the European Union of CO<sub>2</sub> emissions. Therefore, the only alternative is to installed additional renewable power plants: photovoltaic (PV), wind and solar thermal (CSP) power plants.
+
+The new installed power of PV, wind and CSP plants to be installed is therefore the needed to satisfy the estimated electric demands in 2030, 2040 and 2050.
+<br><br>
+#### Which are the optimizations goals?
+
+The goals are to minimize the dumped electricity and the average electricity generation cost. The average cost accounts for the electricity that: cover the demand, it is exported and it is dumped. 
+<br><br>
+#### Are there any restrictions?
+
+First, the electric demand must be, at least, always matched at each hour of the year. Combined cycle power plants are used as much as possible but without exceeding the maximum allowed CO<sub>2</sub> emissions for 2030, 2040 and 2050.
+<br><br>
+#### Main results
+
+The following tables show the installed PV, wind and CSP power together with the mean electricity cost. Notice that the mean cost refers to the mean electricity generation cost which takes into account not only the electricity to cover the demand but also the exported and dumped electricity. 
+
+| Year | Installed PV power (GW) | Installed wind power (GW) | Installed CSP power (GW) | Total installed power (GW) | Renewable power (GW) | Mean electricity cost (c€/kWh) |
+|:----:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| 2030 | 33.17 | 47.55 |  7.57 | 149.77 | 115.70 (77.25%) | 4.98 |
+| 2040 | 40.55 | 79.03 |  12.61 | 192.09 | 163.26 (84.99%) | 4.62 |
+| 2050 | 64.12 | 97.88 |  24.06 | 251.72 | 224.13 (89.04%) | 4.52 |
+
+
+The following table compares demand, generated, exported, imported and dumped electricity together with the CO<sub>2</sub> emissions.
+
+|Year | Demand (TWh) | Generated elec. (TWh) | Exported elec. (TWh) | Imported elec. (TWh) | Dumped elec. (TWh) | CO<sub>2</sub> emissions (kton) & percentage reduction <sup>(1)</sup> |
+|:----:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| 2030 | 286.50 | 299.19 | -9.86 | 0.01 | 2.85 | 25,785.43 (60.05%) |
+| 2040 | 301.15 | 343.19 | -25.55 | 0.11 | 16.60 | 16,103.20 (75.05%) |
+| 2050 | 316.55 | 425.40 | -43.84 | 0.11 | 65.12 | 6,437.53 (90.03%) |
+
+<sup>(1)</sup> Percentage reduction with respect to emissions in 1990 (<a href='../../../../../emissions/'>64,538 kton CO<sub>2</sub></a>).
+<br>
+#### Detail studies
+
+The following table includes links to the detail results obtained for each optimization.
+
+| Year | CO<sub>2</sub> emissions reduction | Optimization results |
+|:----:|:----------------------------------:|:--------------------:|
+| 2030 | 60 % | [Study][link2030] |
+| 2040 | 75 % | [Study][link2040] |
+| 2050 | 90 % | [Study][link2050] |
+
+[2030]: https://ec.europa.eu/clima/policies/strategies/2030_en
+[2050]: https://ec.europa.eu/clima/policies/strategies/2050_en
+[link2030]: ../../../../../projects/optimization-2030-2018-60/
+[link2040]: ../../../../../projects/optimization-2040-2018-75/
+[link2050]: ../../../../../projects/optimization-2050-2018-90/

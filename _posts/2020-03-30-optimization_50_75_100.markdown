@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Spanish electric mix optimization for 2030, 2040 and 2050 with CO<sub>2</sub> emissions reduction: 50%, 75% and 100%"
-date: 2020-10-16 08:00:00
+title: "Spanish electricity mix optimization for 2030, 2040 and 2050 with CO<sub>2</sub> emissions reduction: 50%, 75% and 100%"
+date: 2020-10-28 08:00:00
 author: Javier Bonilla
 categories: 
 - optimization 
@@ -12,9 +12,9 @@ img: post01.jpg
 thumb: thumb01.jpg
 ---
 
-More challenging scenarios are considered in this study for the optimization of the Spanish electric mix in 2030, 2040 and 2050. In this case, reductions of CO<sub>2</sub> emissions of 50% (2030), 75% (2040) and 100% fully renewable (2050) are considered.
+More challenging scenarios are considered in this study for the optimization of the Spanish electricity mix in 2030, 2040 and 2050. In this case, reductions of CO<sub>2</sub> emissions of 50% (2030), 75% (2040) and 100% fully renewable (2050) are considered.
 
-Optimizations are performed considering hourly historic data from 2018 real demand and generation of all the different energy sources that contribute to the global Spanish electric mix.<!--more-->
+Optimizations are performed considering hourly historic data from 2018 real demand and generation of all the different energy sources that contribute to the global Spanish electricity mix.<!--more-->
 <br><br>
 #### What is exactly optimized?
 
@@ -36,18 +36,18 @@ The following tables show the installed PV, wind and CSP power together with the
 
 | Year | Installed PV power (GW) | Installed wind power (GW) | Installed CSP power (GW) | Total installed power (GW) | Renewable power (GW) | Mean electricity cost (c€/kWh) |
 |:----:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| 2030 | 18.95 | 52.74 |  4.59 | 138.57 | 103.69 (74.83%) | 5.11 |
-| 2040 | 25.92 | 82.58 |  17.28 | 185.68 | 156.85 (84.47%) | 4.87 |
-| 2050 | 67.37 | 124.29 |  78.01 | 307.58 | 307.58 (100.00%) | 6.29 |
+| 2030 | 14.54 | 52.92 |  6.75 | 136.50 | 101.62 (74.45%) | 5.25 |
+| 2040 | 40.55 | 79.03 |  12.61 | 192.09 | 163.26 (84.99%) | 4.62 |
+| 2050 | 77.72 | 148.36 |  60.21 | 324.20 | 324.20 (100.00%) | 5.73 |
 
 
 The following table compares demand, generated, exported, imported and dumped electricity together with the CO<sub>2</sub> emissions.
 
 |Year | Demand (TWh) | Generated elec. (TWh) | Exported elec. (TWh) | Imported elec. (TWh) | Dumped elec. (TWh) | CO<sub>2</sub> emissions (kton) & percentage reduction <sup>(1)</sup> |
 |:----:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| 2030 | 286.50 | 296.02 | -8.69 | 0.01 | 0.84 | 32,261.86 (50.01%) |
-| 2040 | 301.15 | 339.89 | -24.78 | 0.10 | 14.06 | 16,099.78 (75.05%) |
-| 2050 | 316.55 | 608.32 | -69.39 | 0.00 | 222.38 | 0.00 (100.00%) |
+| 2030 | 286.50 | 295.14 | -7.99 | 0.01 | 0.66 | 32,232.95 (50.06%) |
+| 2040 | 301.15 | 343.19 | -25.55 | 0.11 | 16.60 | 16,103.20 (75.05%) |
+| 2050 | 316.55 | 631.19 | -75.68 | 0.00 | 238.96 | 0.00 (100.00%) |
 
 
 <sup>(1)</sup> Percentage reduction with respect to emissions in 1990 (<a href='../../../../../emissions/'>64,538 kton CO<sub>2</sub></a>).

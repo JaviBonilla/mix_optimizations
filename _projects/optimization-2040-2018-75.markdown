@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Optimization for 2040 based on 2018 with 60% emission reduction"
+title:  "Optimization for 2040 based on 2018 with 75% emission reduction"
 date:   2020-09-11 09:00:00
 author: Julián Blanco, Javier Bonilla, Eduardo Zarza and Diego Alarcón
 
@@ -8,18 +8,18 @@ region: Spain
 target: 2040
 data: 2018
 reduction: 75%
-pv: 25.92
-wind: 82.58
-csp: 17.28
-total_power: 185.68
-renewable_power: 156.85 (84.47%)
-cost: 4.87
+pv: 40.55
+wind: 79.03
+csp: 12.61
+total_power: 192.09
+renewable_power: 163.26 (84.99%)
+cost: 4.62
 demand: 301.15
-generated: 339.89
-exported: -24.78
-imported: 0.10
-dumped: 14.06
-emissions: 16,099.78 (75.05 %)
+generated: 343.19
+exported: -25.55
+imported: 0.11
+dumped: 16.60
+emissions: 16,103.20 (75.05 %)
 
 results: 2040_(2018)_(75_%25)_batteries
 remarks: <ul><li>Thermal power plants adapted to <b>store dumped electricity</b>.</li></ul>
@@ -50,8 +50,8 @@ This document includes assumptions, results and interactive figures about the op
 #### Main assumptions for 2040 electric mix
 - Shut down of **coal** power plants.
 - Shut down of **nuclear** power plants.
-- Cogeneration power reduced from 5.74 GW (2018) to **1.44 GW** (2040), a 75% reduction.
-- Fuel & gas power reduced form 2.49 GW (2018) to **0.62 GW** (2040), a 75% reduction.
+- Cogeneration power reduced from 5.74 GW (2018) to **1.44 GW** (2040), a **75%** reduction.
+- Fuel & gas power reduced form 2.49 GW (2018) to **0.62 GW** (2040), a **75%** reduction.
 - New solar thermal power plants have **12-hour** thermal storage capacity with a **90%** of storage efficiency.
 - Pumped hydropower increased from 3.3 GW (2018) to **8 GW** (2040).
 - Pumped hydropower capacity increased from 14 GWh (2018) to **33.9 GWh** (2040) with a **76%** of storage efficiency.

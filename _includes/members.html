@@ -1,26 +1,37 @@
-<div class="container mtb">
+
+<style>
+.author-image img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    border-radius: 100%;
+  }
+</style>
+
+<div class="container mtb" style="margin-top: 10px;">
     <div class="row centered">
-        <h3 class="mb">MEET OUR TEAM</h3>
-        
+        <h3 class="mb">MAIN CONTRIBUTORS</h3>
         {% for member in site.members %}
         <div class="col-lg-3 col-md-3 col-sm-3">
             <div class="he-wrap tpl6">
-            <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="">
-                <div class="he-view">
+             <div class="author-image">
+                <img src="{{ "/assets/img/" | prepend: site.baseurl }}{{ member.img }}" alt="">
+            </div>
+            <!--    <div class="he-view">
                     <div class="bg a0" data-animate="fadeIn">
                         <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
                         {% for entry in member.social %}
                             <a href="{{ entry.url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
-                        {% endfor %}
-                    </div><!-- he bg -->
-                </div><!-- he view -->		
-            </div><!-- he wrap -->
-            <h4>{{ member.name }}</h4>
-            <h5 class="ctitle">{{ member.position }}</h5>
+                        {% endfor %} 
+                    </div>
+                </div> -->
+            </div>
+            <h4><a href="{{ member.link }}" target="_blank">{{ member.name }}</a></h4>
+            <!--<h5 class="ctitle">{{ member.position }}</h5>
             <p>{{ member.text }}</p>
-            <div class="hline"></div>
-        </div><! --/col-lg-3 -->	 	
+            <div class="hline"></div>-->
+        </div>
         {% endfor %}
-        
-    </div><! --/row -->
-</div><! --/container -->
+    </div>
+    <br><br>
+    <p style="font-size:18px">This software tool is developed at <a href='https://psa.es/en/'>Plataforma Solar de Almería (PSA)</a>, a dependency of <a href='https://www.ciemat.es/portal.do'>CIEMAT</a>. PSA is the largest concentrating solar technology research, development and test center in Europe. PSA activities are integrated in the CIEMAT organization as an R&D division of the Department of Energy.</p>
+</div>

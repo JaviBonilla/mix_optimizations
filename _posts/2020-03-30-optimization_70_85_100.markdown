@@ -1,0 +1,67 @@
+---
+layout: post
+title: "Spanish electricity mix optimization for 2030, 2040 and 2050 with CO<sub>2</sub> emissions reduction: 70%, 85% and 100%"
+date: 2020-12-04 08:00:00
+author: Javier Bonilla
+categories: 
+- optimization 
+- Year 2030
+- Year 2040
+- Year 2050
+img: post01.jpg
+thumb: thumb01.jpg
+---
+
+More challenging scenarios are considered in this study for the optimization of the Spanish electricity mix in 2030, 2040 and 2050. In this case, reductions of CO<sub>2</sub> emissions of 70% (2030), 85% (2040) and 100% fully renewable (2050) are considered.
+
+Optimizations are performed considering hourly historic data from 2018 real demand and generation of all the different energy sources that contribute to the global Spanish electricity mix.<!--more-->
+<br><br>
+#### What is exactly optimized?
+
+In this study, current power plants (2018) are used as much as possible to satisfy the estimated future electric demands. This includes the usage of current combined cycle power plants. However, there are limitation in their usage due to the restrictions established in this work with respect to the CO<sub>2</sub> emissions. Therefore, the only alternative is to installed additional renewable power plants: photovoltaic (PV), wind and solar thermal (CSP) power plants.
+
+The new installed power of PV, wind and solar thermal plants to be installed is therefore the needed to satisfy the estimated electric demands in 2030, 2040 and 2050.
+<br><br>
+#### Which are the optimizations goals?
+
+The goals are to minimize the dumped electricity and the average electricity generation cost. The average cost accounts for the electricity that: cover the demand, it is exported and it is dumped. 
+<br><br>
+#### Are there any restrictions?
+
+First, the electric demand must be, at least, always matched at each hour of the year. Combined cycle power plants are used as much as possible but without exceeding the maximum allowed CO<sub>2</sub> emissions for 2030, 2040 and 2050.
+<br><br>
+#### Main results
+
+The following tables show the installed PV, wind and CSP power together with the mean electricity cost. Notice that the mean cost refers to the mean electricity generation cost which takes into account not only the electricity to cover the demand but also the exported and dumped electricity. 
+
+| Year | Installed PV power (GW) | Installed wind power (GW) | Installed CSP power (GW) | Total installed power (GW) | Renewable power (GW) | Mean electricity cost (c€/kWh) |
+|:----:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| 2030 | 31.95 | 59.33 |  8.58 | 159.69 | 127.27 (79.70%) | 4.80 |
+| 2040 | 48.55 | 89.73 |  17.37 | 214.72 | 186.72 (86.96%) | 4.61 |
+| 2050 | 77.72 | 148.36 |  60.21 | 324.20 | 324.20 (100.00%) | 5.73 |
+
+
+The following table compares demand, generated, exported, imported and dumped electricity together with the CO<sub>2</sub> emissions.
+
+|Year | Demand (TWh) | Generated elec. (TWh) | Exported elec. (TWh) | Imported elec. (TWh) | Dumped elec. (TWh) | CO<sub>2</sub> emissions (kton) & percentage reduction <sup>(1)</sup> |
+|:----:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| 2030 | 286.50 | 309.42 | -17.09 | 0.01 | 5.84 | 19,359.63 (70.00%) |
+| 2040 | 301.15 | 374.69 | -37.20 | 0.07 | 36.41 | 9,679.54 (85.00%) |
+| 2050 | 316.55 | 631.19 | -75.68 | 0.00 | 238.96 | 0.00 (100.00%) |
+
+
+<sup>(1)</sup> Percentage reduction with respect to emissions in 1990 (<a href='../../../../../emissions/'>64,538 kton CO<sub>2</sub></a>).
+<br>
+#### Detail studies
+
+The following table includes links to the detail results obtained for each optimization.
+
+| Year | CO<sub>2</sub> emissions reduction | Optimization results |
+|:----:|:----------------------------------:|:--------------------:|
+| 2030 | 70 % | [Study][link2030] |
+| 2040 | 85 % | [Study][link2040] |
+| 2050 | 100 % | [Study][link2050] |
+
+[link2030]: ../../../../../projects/optimization-2030-2018-70/
+[link2040]: ../../../../../projects/optimization-2040-2018-85/
+[link2050]: ../../../../../projects/optimization-2050-2018-100/

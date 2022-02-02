@@ -1,19 +1,19 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: ELECTRIC MIX OPTIMIZATION
-description: "Spanish electric mix optimizations for 2030, 2040 and 2050 applying artificial intelligence techniques"
+title: ELECTRICITY MIX OPTIMIZATION
+description: "Spanish electricity mix optimizations for 2030, 2040 and 2050 applying artificial intelligence techniques"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 # ------ #
 # GitHub #
 # ------ #
-baseurl: "/mix_optimizations" #important: start with /
-url: "javibonilla.github.io"
+# baseurl: "/mix_optimizations" #important: start with /
+# url: "javibonilla.github.io"
 # --- #
 # PSA #
 # --- #
-# baseurl: ""
-# url: "mixspain.psa.es"
+baseurl: ""
+url: "mixspain.psa.es"
 
 # Build settings
 markdown: kramdown
@@ -31,6 +31,12 @@ colors:  #in hex code if not noted else
 
 # Making projects separate from posts
 collections:
+  evaluations:
+    output: true
+    permalink: /evaluations/:title/
+  renewable_cost_evolution:
+    output: true
+    permalink: /renewable_cost_evolution/:title/    
   projects:
     output: true
     permalink: /projects/:title/
@@ -57,6 +63,8 @@ social:
     url: https://www.facebook.com/plataformasolardealmeria
   - title: twitter
     url: https://twitter.com/psaciemat
+  - title: youtube
+    url: https://www.youtube.com/channel/UCG8L7Qw2-_XLKeJJsEw_NuQ
   - title: website
     url: https://www.psa.es/en
   # - title: tumblr
@@ -70,22 +78,33 @@ address:
     - Almería, Spain.
 email: info@psa.es
 tel: +34 950 387 800
-version: "0.6.5"
+version: "0.8.7"
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
 # Members information. Shown on About page.
-# members:
-#   - name: Mark Webber
-#     position: CEO
-#     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-#     img: team01.jpg
-#     social:
-#       - title: envelope #use for email address
-#         url: mailto:name@domain.com
-#       - title: twitter
-#         url: http://twitter.com/handle
+members:
+  - name: Javier Bonilla
+    link: http://www.psa.es/en/personal/user.php?name=AjSACSV688IYySpj3KbMMlQHAUisD0IkAErJdp0yukU=0
+    img: javier-bonilla.jpg
+  - name: Julian Blanco
+    link: http://www.psa.es/en/personal/user.php?name=H6Ufl61s9fps/3WYonNbKqhBo+/PQ9B6BpBhXvU50Js=1
+    img: julian-blanco.jpg
+  - name: Eduardo Zarza
+    link: http://www.psa.es/en/personal/user.php?name=OphZF36bA3+bWzkNVEZ1suVJYgzAdSEWwust2Ci18d4=1
+    img: eduardo-zarza.jpg
+  - name: Diego Alarcón
+    link: http://www.psa.es/en/personal/user.php?name=edusalPZaefJ3Acv+M6xcywncrsKkECG3XR8n2/1U+g=1
+    img: diego-alarcon.jpg
+#    position: CEO
+#    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+#    img: team01.jpg
+#    social:
+#      - title: envelope #use for email address
+#        url: mailto:name@domain.com
+#      - title: twitter
+#        url: http://twitter.com/handle
 #   - name: Paul Jameson
 #     position: Lead Designer
 #     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -127,6 +146,9 @@ version: "0.6.5"
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Plataforma Solar de Almería (PSA), a dependency of CIEMAT, is the largest concentrating solar technology research, development and test center in Europe. PSA activities are integrated in the CIEMAT organization as an R&D division of the Department of Energy."
+
+# Data use
+data: "The data, figures and results in this website may be freely used, shared, copied, reproduced, printed and/or stored, provided that all such material is clearly attributed to CIEMAT and bears a notation of copyright (© CIEMAT) with the year of copyright. Unless otherwise stated, the data provided are the property of the Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas (CIEMAT) and are subject to copyright by CIEMAT. Data attributed to third parties may be subject to third-party copyright and separate terms of use and restrictions, including restrictions in relation to any commercial use. Check the About page for further details."
 
 # Testimonial content. Shown on Home and About page.
 # testimonial:
